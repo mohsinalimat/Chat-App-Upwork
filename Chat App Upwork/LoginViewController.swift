@@ -21,6 +21,10 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         ref = FIRDatabase.database().reference()
+        
+        if let user = FIRAuth.auth()?.currentUser {
+            self.signedIn(user)
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -76,5 +80,8 @@ class LoginViewController: UIViewController {
         self.navigationController?.pushViewController(next, animated: true)
     }
     
-    
+    func signedIn(user: FIRUser?) {
+        let next = self.storyboard?.instantiateViewControllerWithIdentifier("MainViewController") as! MainViewController!
+        self.navigationController?.pushViewController(next, animated: true)
+    }
 }

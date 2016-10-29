@@ -23,6 +23,8 @@
 		DA11CB7C1DC1D2CF000C03E1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DA11CB7B1DC1D2CF000C03E1 /* MBProgressHUD.m */; };
 		DA11CB801DC1D334000C03E1 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11CB7F1DC1D334000C03E1 /* CommonUtils.swift */; };
 		DA11CB821DC1D378000C03E1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11CB811DC1D378000C03E1 /* Helper.swift */; };
+		DA92C1111DC422DF00259E53 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92C1101DC422DF00259E53 /* GroupViewController.swift */; };
+		DA92C1131DC42B8100259E53 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92C1121DC42B8100259E53 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		DA11CB7E1DC1D2F5000C03E1 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		DA11CB7F1DC1D334000C03E1 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		DA11CB811DC1D378000C03E1 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		DA92C1101DC422DF00259E53 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		DA92C1121DC42B8100259E53 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		F88917C2F5746EBC4555E4EF /* Pods_Chat_App_Upwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_App_Upwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,9 +149,10 @@
 				DA11CB731DC1CBF4000C03E1 /* LoginViewController.swift */,
 				DA11CB751DC1CC00000C03E1 /* RegisterViewController.swift */,
 				DA11CB771DC1D088000C03E1 /* MainViewController.swift */,
-				DA11CB441DC1C92E000C03E1 /* Main.storyboard */,
+				DA92C1101DC422DF00259E53 /* GroupViewController.swift */,
 				DA11CB791DC1D2B1000C03E1 /* Helper Files */,
 				DA11CB4A1DC1C92E000C03E1 /* Assets.xcassets */,
+				DA11CB441DC1C92E000C03E1 /* Main.storyboard */,
 				DA11CB4C1DC1C92E000C03E1 /* LaunchScreen.storyboard */,
 				DA11CB4F1DC1C92E000C03E1 /* Info.plist */,
 				DA11CB471DC1C92E000C03E1 /* Chat_App_Upwork.xcdatamodeld */,
@@ -180,6 +185,7 @@
 				DA11CB7D1DC1D2DD000C03E1 /* MBProgressHUD-master */,
 				DA11CB7F1DC1D334000C03E1 /* CommonUtils.swift */,
 				DA11CB811DC1D378000C03E1 /* Helper.swift */,
+				DA92C1121DC42B8100259E53 /* AppState.swift */,
 			);
 			name = "Helper Files";
 			sourceTree = "<group>";
@@ -380,7 +386,9 @@
 				DA11CB761DC1CC00000C03E1 /* RegisterViewController.swift in Sources */,
 				DA11CB431DC1C92E000C03E1 /* ViewController.swift in Sources */,
 				DA11CB781DC1D088000C03E1 /* MainViewController.swift in Sources */,
+				DA92C1111DC422DF00259E53 /* GroupViewController.swift in Sources */,
 				DA11CB491DC1C92E000C03E1 /* Chat_App_Upwork.xcdatamodeld in Sources */,
+				DA92C1131DC42B8100259E53 /* AppState.swift in Sources */,
 				DA11CB821DC1D378000C03E1 /* Helper.swift in Sources */,
 				DA11CB411DC1C92E000C03E1 /* AppDelegate.swift in Sources */,
 				DA11CB801DC1D334000C03E1 /* CommonUtils.swift in Sources */,
@@ -530,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Chat App Upwork/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.harloch.Chat-App-Upwork";
@@ -545,6 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Chat App Upwork/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.harloch.Chat-App-Upwork";

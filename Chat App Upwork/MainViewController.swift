@@ -45,4 +45,10 @@ class MainViewController: UIViewController {
         let next = self.storyboard?.instantiateViewControllerWithIdentifier("LoginViewController") as! LoginViewController!
         self.navigationController?.pushViewController(next, animated: true)
     }
+    
+    @IBAction func networkButton(sender: AnyObject) {
+        let next = self.storyboard?.instantiateViewControllerWithIdentifier("GroupViewController") as! GroupViewController!
+        self.navigationController?.pushViewController(next, animated: true)
+    }
+    
 }
