@@ -189,7 +189,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="PBW-dc-2Gc" secondAttribute="height" multiplier="182:41" id="4O0-ng-RVX"/>
                                 </constraints>
-                                <state key="normal" title="Register'">
+                                <state key="normal" title="Register">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>

@@ -1,4 +1,6 @@
 PODS:
+  - Alamofire (3.5.1)
+  - CryptoSwift (0.5.2)
   - Firebase (3.8.0):
     - Firebase/Core (= 3.8.0)
   - Firebase/Auth (3.8.0):
@@ -69,8 +71,16 @@ PODS:
   - GTMSessionFetcher/Core (1.1.7)
   - IQDropDownTextField (1.1.0)
   - IQKeyboardManagerSwift (4.0.5)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - CryptoSwift (= 0.5.2)
   - Firebase
   - Firebase/Auth
   - Firebase/Crash
@@ -79,8 +89,12 @@ DEPENDENCIES:
   - Firebase/Storage
   - IQDropDownTextField (~> 1.0)
   - IQKeyboardManagerSwift (= 4.0.5)
+  - JSQMessagesViewController
+  - SDWebImage (~> 3.8)
 
 SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  CryptoSwift: c1ef79f901b86099a6fe8b3c7524cf9f3f3c8c40
   Firebase: fdbecadb7b5cbef2774852d4fa659b9daf11f2af
   FirebaseAnalytics: 6e58fc9b397664369ac7617fb0ba93fab6ba7b5b
   FirebaseAuth: 96e9674ff31d6e1f826d53e26aa003a57cab0295
@@ -96,7 +110,10 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
   IQDropDownTextField: 614f79ca905529c992045eaa112d0fc9ebb875d1
   IQKeyboardManagerSwift: 41fd3a45a2cdb2a0e031af697708a95b865068a1
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: ca4c76c68b3992cd95877fae5db35d14cf2099fc
+PODFILE CHECKSUM: 095cea17a6572032fca6ebbf56ac3aabe28a6c0f
 
 COCOAPODS: 1.1.0.rc.2
